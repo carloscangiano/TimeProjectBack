@@ -1,0 +1,32 @@
+{
+  "name": "timeprojectback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index",
+    "dev": "nodemon ./src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscangiano/TimeProjectBack.git"
+  },
+  "author": "Juan Carlos Cangiano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloscangiano/TimeProjectBack/issues"
+  },
+  "homepage": "https://github.com/carloscangiano/TimeProjectBack#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-prometheus-middleware": "^1.2.0",
+    "prom-client": "^13.1.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
